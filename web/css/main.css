@@ -1,0 +1,32 @@
+.btn{border:1px solid transparent}
+.fl{float: left}
+.fr{float: right}
+.ml-5{margin-left: 5px}
+.ml-10{margin-left: 10px}
+.ml-20{margin-left: 20px}
+.mr-5{margin-right: 5px}
+.mr-10{margin-right: 10px}
+.mr-20{margin-right: 10px}
+.mt-5{margin-top: 5px}
+.mt-10{margin-top: 10px}
+.mt-20{margin-top: 20px}
+.mb-5{margin-bottom: 5px}
+.mb-10{margin-bottom: 10px}
+.mb-20{margin-bottom: 20px}
+.data-tables-page{
+    background-color: #eff3f8;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 0;
+}
+div.required label:before {
+    content: "* ";
+    color: red;
+}
+div label.colon:after {
+    content: "：";
+}
+.required label {
+    font-weight: normal;
+}
