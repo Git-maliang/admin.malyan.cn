@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <?= GridView::widget([
     'dataProvider' => $dataProvider,
     'columns' => [
-        ['class' => 'yii\grid\CheckBoxColumn'],
+        ['class' => 'yii\grid\CheckboxColumn'],
         'id',
         'operate_id',
         ['attribute' => 'type', 'format' => ['array', OperateLog::typeArray()]],
