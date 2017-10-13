@@ -6,4 +6,7 @@ return [
     'hiddenMenu' => ['create', 'update', 'view', 'auth', 'sort', 'error'],
     'allowedRole' => ['超级管理员'],
     'allowedRoute' => ['admin/create-password', 'permission/menu'],
+    'qiNiuConfig' => [
+        
+    ]
 ];

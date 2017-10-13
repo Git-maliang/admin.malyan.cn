@@ -36,6 +36,8 @@ class OperateLog extends \yii\db\ActiveRecord
     const EVENT_MODULE_ROLE = 2; // 角色管理
     const EVENT_MODULE_PERMISSION = 3; // 权限管理
     const EVENT_MODULE_MENU = 4; // 菜单管理
+    const EVENT_MODULE_ALBUM = 5; // 相册管理
+    const EVENT_MODULE_PICTURE = 6; // 照片管理
 
     /**
      * @inheritdoc

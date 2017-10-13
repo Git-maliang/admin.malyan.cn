@@ -122,7 +122,7 @@ class LinkPager extends \yii\widgets\LinkPager
         if ($pageCount < 2 && $this->hideOnSinglePage) {
             return '';
         }
-
+        $this->pagination->defaultPageSize = 100;
         $buttons = [];
         $currentPage = $this->pagination->getPage();
 

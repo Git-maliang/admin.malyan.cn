@@ -6,4 +6,6 @@ return [
     'Permission' => '权限',
     'Menu' => '菜单',
     'Operate' => '操作日志',
+    'Album' => '相册',
+    'Picture' => '照片',
 ];

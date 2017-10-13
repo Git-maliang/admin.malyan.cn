@@ -7,4 +7,6 @@ return [
     'Create Role' => '<i class="fa fa-plus"></i> 创建角色',
     'Create Permission' => '<i class="fa fa-plus"></i> 创建权限',
     'Create Auth' => '<i class="fa  fa-wrench"></i> 权限分配',
+    'Create Album' => '<i class="fa  fa-plus"></i> 创建相册',
+    'Create Picture' => '<i class="fa  fa-plus"></i> 创建照片',
 ];
