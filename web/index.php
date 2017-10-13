@@ -1,5 +1,4 @@
 <?php
-
 $SYSTEM_CONFIG = parse_ini_file(__DIR__.'/../system/SYSTEM_CONFIG') ;
 
 if(isset($SYSTEM_CONFIG['YII_DEBUG']) &&  $SYSTEM_CONFIG['YII_DEBUG']){
